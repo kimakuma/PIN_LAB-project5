@@ -85,4 +85,5 @@ sudo apt-get install libportaudio2
 ---
 
 ## Stacks
+python, mongo, raspberry, docker, gcp, stt, metadata
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white"> <img src="https://img.shields.io/badge/Raspbian-A22846?style=for-the-badge&logo=Raspberry Pi&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">

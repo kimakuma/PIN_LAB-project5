@@ -18,7 +18,7 @@ Text conversion of WAV file using Google Cloud Platform Speech-to-Text API on Ra
     - [WAV file description](https://crystalcube.co.kr/123)
 - Using Google Cloud Platform Speech-to-Text API to convert WAV file to Text
 - Saving WAV file with meta datas including converted text via Atlas(MongoDB)
-- Distributing via Docker
+- Distribution via Docker
 
 ---
 

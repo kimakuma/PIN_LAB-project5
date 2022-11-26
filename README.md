@@ -48,6 +48,18 @@ pip3 install pymongo
 python3 -m sounddevice
 ```
 
+- Setting for GCP's STT
+    - Installing packages
+    ```console
+    pip3 install pyaudio
+    pip3 install --upgrade google-api-python-client
+    pip3 install google-cloud-storage
+    pip3 install google-cloud-speech
+    ```
+    - about [WAV file](https://cloud.google.com/speech-to-text/docs/optimizing-audio-files-for-speech-to-text?hl=ko#objectives)
+    - [Installing Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk?hl=ko)
+    - [Using STT](https://cloud.google.com/speech-to-text/docs/transcribe-client-libraries?hl=ko)
+
 ### Installing & Setting (based on Docker)
 - docker: [kimakuma8/ubuntu:project5](https://hub.docker.com/layers/kimakuma8/ubuntu/project5/images/sha256-8cf20343f696e5d59252f7b1ac4414f1cafd52551e400b9856be05765a131702?context=repo)
 

@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=soft&color=006EDB&fontColor=DEEAF7&height=200&section=header&text=PIN_LAB&desc=Project%205&descAlignY=80&fontSize=90)
 # PIN_LAB: Project 5
 
-Text conversion of WAV file using Google Cloud Platform's Speech-to-Text API
+Text conversion of WAV file using Google Cloud Platform Speech-to-Text API
 
 ---
 
@@ -13,10 +13,10 @@ Text conversion of WAV file using Google Cloud Platform's Speech-to-Text API
 ---
 
 ## Description
-Text conversion of WAV file using Google Cloud Platform's Speech-to-Text API on Raspberry PI 400
+Text conversion of WAV file using Google Cloud Platform Speech-to-Text API on Raspberry PI 400
 - Recording WAV file
     - [WAV file description](https://crystalcube.co.kr/123)
-- Using GCP STT API to convert WAV file to Text
+- Using Google Cloud Platform Speech-to-Text API to convert WAV file to Text
 - Saving WAV file with meta datas including converted text via Atlas(MongoDB)
 
 ---
@@ -48,7 +48,7 @@ pip3 install pymongo
 python3 -m sounddevice
 ```
 
-- Setting for GCP's STT
+- Setting for Google Cloud Platform Speech-to-Text API
     - Installing packages
     ```console
     pip3 install pyaudio
@@ -58,7 +58,7 @@ python3 -m sounddevice
     ```
     - about [WAV file](https://cloud.google.com/speech-to-text/docs/optimizing-audio-files-for-speech-to-text?hl=ko#objectives)
     - [Installing Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk?hl=ko)
-    - [Using STT](https://cloud.google.com/speech-to-text/docs/transcribe-client-libraries?hl=ko)
+    - [Using Google Cloud Platform Speech-to-Text API](https://cloud.google.com/speech-to-text/docs/transcribe-client-libraries?hl=ko)
 
 ### Installing & Setting (based on Docker)
 - docker: [kimakuma8/ubuntu:project5](https://hub.docker.com/layers/kimakuma8/ubuntu/project5/images/sha256-8cf20343f696e5d59252f7b1ac4414f1cafd52551e400b9856be05765a131702?context=repo)
@@ -78,11 +78,8 @@ sudo apt-get install libportaudio2
 ---
 
 ## Architecture
-### Docker
-<img src="https://user-images.githubusercontent.com/76460405/204084157-f98f2178-5799-4da2-88bd-6eb2d32da4bf.png" width="590" height="214">
-
 ### Architecture
-<img src="https://user-images.githubusercontent.com/76460405/204084264-f78f6e4c-fe85-4f4e-92ee-bdeac230467d.png" width="598" height="296">
+<img src="https://user-images.githubusercontent.com/76460405/204097231-288445a2-b7d9-444d-8b3e-34a6ddf47dfe.png" width="506" height="336">
 
 ---
 

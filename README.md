@@ -79,7 +79,7 @@ sudo apt-get install libportaudio2
 
 ## Architecture
 ### Architecture
-<img src="https://user-images.githubusercontent.com/76460405/204097231-288445a2-b7d9-444d-8b3e-34a6ddf47dfe.png" width="506" height="240">
+<img src="https://user-images.githubusercontent.com/76460405/204097231-288445a2-b7d9-444d-8b3e-34a6ddf47dfe.png" width="506" height="340">
 
 ---
 
